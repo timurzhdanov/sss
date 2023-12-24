@@ -1,0 +1,72 @@
+{
+    "station_name": "severnay kakashka",
+    "address": "forgot street, 69",
+    "workers": [
+        {
+            "id": 1,
+            "name": "Armen Vasko",
+            "age": 25,
+            "email": "armen@example.com",
+            "class_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Oleg Mongol",
+            "age": 99,
+            "email": "ystal@garaz.com",
+            "class_id": 2
+        },
+        {
+            "id": 3,
+            "name": "Ivan Pytin",
+            "age": 7,
+            "email": "besit@json.com",
+            "class_id": 1
+        },
+        {
+            "id": 4,
+            "name": "Marina Guapovna",
+            "age": 43,
+            "email": "letitop@example.com",
+            "class_id": 2
+        },
+        {
+            "id": 5,
+            "name": "vasa json",
+            "age": "88",
+            "email": "besitjson@mail.ru"
+        }
+    ],
+    "classes": [
+        {
+            "id": 1,
+            "name": "scientists",
+            "class_nachalnik_id": 1,
+            "workers_id": [
+                1,
+                3
+            ]
+        },
+        {
+            "id": 2,
+            "name": "cleaners",
+            "class_nachalnik_id": 2,
+            "workers_id": [
+                2,
+                4
+            ]
+        }
+    ],
+    "nachalniks": [
+        {
+            "id": 1,
+            "name": "Zloi Kavkazech",
+            "email": "opasniy@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Prigozin Evgesha",
+            "email": "vagner@example.com"
+        }
+    ]
+}
